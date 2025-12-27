@@ -8,7 +8,7 @@ body { font-family: sans-serif; display: flex; flex-direction: column; align-ite
     max-width: 400px;
     width: 100vw; /* Responsive width */
 }
-@media (max-width: 1500px) { .game-board { grid-template-columns: repeat(3, 1fr); } } /* Adjust for small phones */
+@media (max-width: 400px) { .game-board { grid-template-columns: repeat(3, 1fr); } } /* Adjust for small phones */
 
 .card {
     aspect-ratio: 1/1;
@@ -24,4 +24,5 @@ body { font-family: sans-serif; display: flex; flex-direction: column; align-ite
 }
 .card.flipped { background-color: #fff; font-size: 2rem; }
 .card.matched { visibility: hidden; } /* Or keep revealed but disabled */
+
 
