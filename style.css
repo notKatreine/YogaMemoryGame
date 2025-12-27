@@ -5,8 +5,8 @@ body { font-family: sans-serif; display: flex; flex-direction: column; align-ite
     display: grid;
     grid-template-columns: repeat(8, 1fr); /* 4 columns for desktop/tablet */
     gap: 10px;
-    max-width: 1500px;
-    width: 500vw; /* Responsive width */
+    max-width: 400px;
+    width: 100vw; /* Responsive width */
 }
 @media (max-width: 1500px) { .game-board { grid-template-columns: repeat(3, 1fr); } } /* Adjust for small phones */
 
@@ -24,3 +24,4 @@ body { font-family: sans-serif; display: flex; flex-direction: column; align-ite
 }
 .card.flipped { background-color: #fff; font-size: 2rem; }
 .card.matched { visibility: hidden; } /* Or keep revealed but disabled */
+
